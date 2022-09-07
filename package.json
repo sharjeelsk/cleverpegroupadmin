@@ -1,0 +1,70 @@
+{
+  "name": "bstorage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/react-chartjs": "^2.0.3",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/lab": "^5.0.0-alpha.58",
+    "@mui/material": "^5.1.1",
+    "@mui/x-data-grid": "^5.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "axios": "^0.24.0",
+    "chart.js": "^3.8.0",
+    "date-and-time": "^2.0.1",
+    "date-fns": "^2.27.0",
+    "emailjs-com": "^3.2.0",
+    "google-map-react": "^2.1.10",
+    "jsog": "^1.0.7",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.5",
+    "react-phone-number-input": "^3.1.35",
+    "react-qrcode-logo": "^2.8.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.1.10",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-error-overlay": "^6.0.9"
+  }
+}

@@ -1,0 +1,97 @@
+@import  "../../App.scss";
+
+.body{
+    background-color: #f7f7f7;
+    height:100vh;    
+    padding-top: 2%;
+    .row{
+        width: 25%;
+    }
+}
+
+.body100{
+    background-color: #f7f7f7;
+    height:100%;    
+    padding-top: 2%;
+    .row{
+        width: 25%;
+    }
+}
+.auth-container{
+    padding: 3%;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+
+    margin: auto;
+    ;
+    img{
+        width: 30%;
+    }
+    h3{
+        font-size: 2em;
+        font-weight: 400;
+    }
+    h6{
+        color: grey;
+    }
+    .textfield{
+        margin: 2% 0;
+    }
+    .checkbox-head{
+        text-align: left;
+        img{
+            width: 100%;
+
+        }
+    }
+    .link{
+        color: #cccf;
+        text-decoration: overline;
+    }
+    .subtitle{
+        font-size: .9em;
+    }
+    .newtext{
+        font-size: 1.15em;
+    }
+    .mototext{
+        font-weight: 500;
+        font-size: 1.2em;
+        color: green;
+
+    }
+}
+
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .auth-container{
+        padding: 5% 2%;
+        width: 80%;
+        margin: auto;
+        img{
+            width: 30%;
+        }
+        h3{
+            font-size: 2em;
+            font-weight: 400;
+        }
+        h6{
+    
+        }
+        .textfield{
+            margin: 4% 0;
+        }
+    }
+    
+}
+

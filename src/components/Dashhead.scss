@@ -1,0 +1,54 @@
+@import "../App.scss";
+
+
+
+.dashhead{
+    height: 100vh;
+    background: linear-gradient(to bottom right,#010101, #272727);
+    h1{
+        text-align: center;
+        color: white;
+        padding-top: 5%;
+    }
+    .menu-container{
+        padding:5%;
+        margin: 2% 0 0 10%;
+        color:#cccf;
+    }
+    .menu-container:hover{
+        background: linear-gradient(to bottom right, #eedeff2c,#faf5ff2c);
+        cursor: pointer;
+    }
+
+    .menu-container-active{
+        transform: scale(1.05);
+        padding:5%;
+        margin: 2% 0 0 10%;
+        color:white;
+        background: linear-gradient(to bottom right, #eedeff2c,#faf5ff2c);
+    }
+    .menu-container-active:hover{
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .dashhead{
+      position: absolute;
+      z-index: 1;
+      width: 50%;
+    }
+
+    .displayhidden{
+        display: none;
+    }
+
+}

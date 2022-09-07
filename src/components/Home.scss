@@ -1,0 +1,28 @@
+@import "../App.scss";
+
+
+.home-container{
+    .box-head{
+        margin: 2% 3% !important;
+        .box-content{
+            /* Created with https://www.css-gradient.com */
+            background: #343434;
+            background: -webkit-linear-gradient(bottom right, #343434, #656565);
+            background: -moz-linear-gradient(bottom right, #343434, #656565);
+            background: linear-gradient(to top left, #343434, #656565);
+            text-align: center;
+            padding: 4% 2%;
+            border-radius: 10px;
+            h2{
+                font-size: 4em;
+                color: white;
+                font-weight: 500;
+                color: #8c9cff
+            }
+            h3{
+                color: white;
+                font-weight: 300;
+            }
+        }
+    }
+}

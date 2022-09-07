@@ -1,0 +1,115 @@
+@import  "../../App.scss";
+
+span{
+    font-family: $secondary-font;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13, 156, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.airtody{
+    width:5vw;
+    filter: contrast(2.5);
+ }
+ .navbarBrandName{
+font-size: 3rem;
+font-weight: 600;
+ }
+ .navbarBrandNameext{
+    font-weight: 900;
+    color: inherit !important;
+ }
+ .logoimg{
+     width:3vw;
+ }
+ .nav-item{
+     margin: auto auto;
+ }
+ .navbarclass{
+     font-size:1.25rem;
+     padding: 1% 0;
+ }
+ .navbar-nav li{
+     padding:0 .25rem;
+ }
+ .greenspanlight{
+    background: -webkit-linear-gradient(#0d9c00, #006b14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: $secondary-font;
+ }
+ .greenspanwhite{
+    background: -webkit-linear-gradient(#ffffff, #d4d4d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: $secondary-font;
+ }
+ .navbar{
+     background-color: transparent !important;
+     font-family: $secondary-font;
+ }
+
+ #nav{
+ }
+
+ .logo{
+     filter:contrast(1.5)
+ }
+
+.nav-link{
+    color:$grey !important;
+    font-weight: 400;
+    font-family: $secondary-font;
+    font-size: 1.1em;
+
+}
+.nav-link:hover{
+    color:$purple !important;
+    transition: .3s;
+}
+.active{
+color:$purple !important
+}
+
+li{
+    color:purple;
+}
+.custombadge{
+    position: absolute;
+    color: white;
+    background-color:red ;
+    padding: 2px 8px;
+    border-radius: 40px;
+    font-size: .7em;
+}
+
+@media (min-width: 800px) {
+    .airtody{
+        width:25vw;
+        filter: contrast(2.5);
+     }
+     .custombadge{
+        margin-left: 1.6%;
+    }
+}
+@media (max-width: 768px) {
+    .logo{
+        height:50%;
+        width:60px;
+    }
+    .custombadge{
+        margin-left: 3%;
+    }
+
+}
+@media (max-width: 576px) {
+    .logo{
+        height:50%;
+        width:60px;
+    }
+    .custombadge{
+        margin-left: 5%;
+    }
+}
