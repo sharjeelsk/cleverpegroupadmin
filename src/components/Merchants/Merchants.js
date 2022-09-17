@@ -48,7 +48,7 @@ function Merchants(props) {
                     columns={columns2}
                     autoPageSize
                     checkboxSelection
-                    onRowClick={(item,ev)=>props.history.push('/orderdetails',item.row)}
+                    onRowClick={(item,ev)=>props.history.push('/merchantinfo',item.row)}
                 />
             </div>
 

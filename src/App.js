@@ -6,6 +6,7 @@ import SignIn from './components/Auth/SignIn'
 import Merchants from './components/Merchants/Merchants';
 import SignUp from './components/Auth/SignUp';
 import Organization from './components/Organization/Organization';
+import MerchantInfo from './components/Merchants/MerchantInfo';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/signin" component={SignIn} />
       <Route path="/verifyotp" component={VerifyOtp} />
       <Route path="/merchants" component={Merchants} />
+      <Route path="/merchantinfo" component={MerchantInfo} />
       <Route path="/organization" component={Organization} />
 
     </Switch>
