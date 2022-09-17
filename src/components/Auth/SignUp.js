@@ -34,7 +34,7 @@ function SignUp(props) {
     <div className="shadow-sm auth-container">
         <img src="/cleverpeblack.png" alt="cleverpe" className="logo" />
         <h3>Be Clever Pe Later</h3>
-        <h6>SignIn by entering the information below</h6>
+        <h6>Partner SignIn</h6>
         <form onSubmit = {handleSubmit(onSubmit)}>
         <TextField {...register('name',{required:true})} className="textfield" fullWidth variant="outlined" id="outlined-basic" label="Name" />
         <TextField {...register('email',{required:true})} className="textfield" fullWidth variant="outlined" id="outlined-basic" label="Email" />

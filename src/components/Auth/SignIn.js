@@ -38,7 +38,7 @@ function SignIn(props) {
     <div className="shadow-sm auth-container">
         <img src="/cleverpeblack.png" alt="cleverpe" className="logo" />
         <h3>Be Clever Pe Later</h3>
-        <h6>SignIn buy entering the information below</h6>
+        <h6>Partner SignIn</h6>
         <form onSubmit={handleSubmit(onSubmit)}>
         <TextField error={errors.mobile?true:false} {...register("mobile",{required:true,valueAsNumber:true})} className="textfield" fullWidth variant="outlined" id="outlined-basic" label="Mobile Number" />
 
@@ -49,7 +49,7 @@ function SignIn(props) {
 
         <hr />
         <div className="mt-3">
-          <p className="newtext">New to CleverPe? Dive in by creating an account</p>
+          <p className="newtext">New to partner.cleverpe? Dive in by creating an account</p>
           <Button fullWidth variant="outlined" onClick={()=>props.history.push("/signup",props.location.state)}>create an account</Button>
         </div>
         </form>

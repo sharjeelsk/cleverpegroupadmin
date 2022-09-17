@@ -76,7 +76,7 @@ function VerifyOtp(props) {
         {
             props.location.state.auth==="merchantprofile"&&        
             <section>
-                <p className="mototext">You're just one step away in becoming a CleverPe Merchant !!</p>
+                <p className="mototext">You're just one step away in becoming a CleverPe Partner !!</p>
             </section>
             // <div className="row my-4">
             // <div className="col-6 checkbox-head align-items-center row m-auto">
