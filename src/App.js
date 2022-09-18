@@ -7,6 +7,7 @@ import Merchants from './components/Merchants/Merchants';
 import SignUp from './components/Auth/SignUp';
 import Organization from './components/Organization/Organization';
 import MerchantInfo from './components/Merchants/MerchantInfo';
+import MerchantOrderDetails from './components/Merchants/MerchantOrderDetails';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/merchants" component={Merchants} />
       <Route path="/merchantinfo" component={MerchantInfo} />
       <Route path="/organization" component={Organization} />
+      <Route path="/merchantorderdetails" component={MerchantOrderDetails} />
 
     </Switch>
   );

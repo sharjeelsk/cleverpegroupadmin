@@ -11,6 +11,9 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import PersonIcon from '@mui/icons-material/Person';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import {connect} from 'react-redux'
+import {Button} from '@mui/material'
+import LogoutIcon from '@mui/icons-material/Logout';
+import {deleteUser} from './redux/user/userActions'
 const Dashhead = (props) => {
     console.log(props);
     let {id,display} = props
@@ -43,7 +46,12 @@ const Dashhead = (props) => {
             </div>
             }
 
-
+<div onClick={()=>{
+                props.deleteUser();
+                props.history.push("/")
+            }} className="mt-3" style={{textAlign:"center"}}>
+                <Button startIcon={<LogoutIcon />} variant="contained" color="secondary">Logout</Button>
+            </div>
 
             
         </div>

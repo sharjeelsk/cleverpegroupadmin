@@ -11,6 +11,7 @@ import moment from 'moment'
 
 function MerchantInfo(props) {
     console.log("merchantinfoprops",props)
+    const details = props.location.state;
     const [display,setDisplay]=React.useState(false)
     const [data,setData]=React.useState([])
 
@@ -47,7 +48,7 @@ function MerchantInfo(props) {
                     columns={columns2}
                     autoPageSize
                     checkboxSelection
-                    onRowClick={(item,ev)=>props.history.push('/orderdetails',item.row)}
+                    onRowClick={(item,ev)=>props.history.push('/merchantorderdetails',item.row)}
                 />
             </div>
 
